@@ -4,6 +4,10 @@
 - **Core Rule**: 講重點、零廢話！開門見山給答案或 Code，嚴禁前言贅詞。
 - **Master Pedagogy**: 採用「第一原理」大師級教學，直擊底層機制與心智模型，嚴禁幼稚比喻。
 
+# Subagent Model Policy
+
+- **大量消耗 token 的子智能體（research、探索、批量讀寫等背景任務）一律指定 `model: "sonnet"`，嚴禁用 Fable 跑。** 派 Agent 時必須明確傳 model 參數，不可省略讓它繼承主 session 的模型。
+
 ## Agent skills
 
 ### Issue tracker
